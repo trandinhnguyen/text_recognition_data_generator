@@ -30,5 +30,5 @@ for img, lbl in tqdm(generator):
         img_name = f"distorted_{count}.jpg"
         img.save(os.path.join("generated_datasets_v2/distorted", img_name))
         with open("generated_datasets_v2/distorted_labels.txt", "a") as f:
-            f.write(f"{img_name}\t{lbl}\n")
+            f.write(f"{img_name}\t{lbl.lower()}\n")
         count += 1

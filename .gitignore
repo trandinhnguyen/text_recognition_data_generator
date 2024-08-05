@@ -1,7 +1,8 @@
 generated_text_recognition_dataset/
-generated_datasets_v2/
+generated_dataset_v2/
 .github/
 .circleci/
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
